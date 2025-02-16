@@ -35,3 +35,22 @@ ls -l /var/www/html/flaskapp/flaskapp.wsgi
 sudo a2ensite flaskapp
 sudo systemctl restart apache2
 sudo reboot
+git --version
+sudo apt install git -y
+cd/var/www/html/flaskapp
+git init
+git add
+git add .
+git commit -m "Falsk app for AWS EC2"
+git remote add origin https://github.com/Lakshmipriya1911/AWS
+git push -u origin main
+git branch -M main
+git push -u origin main
+nano flaskapp.py
+git --version
+sudo apt install git -y
+cd /var/www/html/flaskapp
+ls
+cd flaskapp
+git init
+exit
